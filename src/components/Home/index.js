@@ -1,12 +1,14 @@
+/* eslint-disable no-unused-vars */
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import LogoTitle from '../../assets/images/logo-s.png'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
+import Logo from './Logo'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['i', 'r', 'a', 'm', 'i', 'y', 'e']
+    const nameArray = ['d', 'i', 'r', 'a', 'm', 'i', 'y', 'e']
     const jobArray1 = ['f', 'u', 'l', 'l', 's', 't', 'a', 'c', 'k', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
     const jobArray2 = ['&', ' ', 'd', 'e', 'v', 'O', 'p', 's', ' ', 'e', 'n', 'g', 'i', 'n', 'e', 'e', 'r', '.']
 
@@ -29,22 +31,23 @@ const Home = () => {
                 <AnimatedLetters
                     letterClass={letterClass}
                     strArray={nameArray}
-                    idx={15}
+                    idx={16}
                 />
                 <br />
                 <AnimatedLetters
                     letterClass={letterClass}
                     strArray={jobArray1}
-                    idx={22}
+                    idx={23}
                 /> <br /> 
                 <AnimatedLetters
                     letterClass={letterClass}
                     strArray={jobArray2}
-                    idx={41}
+                    idx={42}
                 /></h1>
                 <h2>Fullstack developer / JavaScript Expert / DevOps engineer</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
+            <Logo />
         </div>
     )
 }
