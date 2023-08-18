@@ -5,6 +5,7 @@ import LogoTitle from '../../assets/images/logo-s.png'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
+import LogoMe from '../../assets/images/me.png'
 import Loader from 'react-loaders'
 
 const Home = () => {
@@ -47,7 +48,8 @@ const Home = () => {
                     <h2>Fullstack developer / JavaScript Expert / DevOps engineer</h2>
                     <Link to="/contact" className='flat-button'>CONTACT ME</Link>
                 </div>
-                <Logo />
+                {/* <Logo /> */}
+                <img className='logoMe' src={LogoMe} alt="me" />
             </div>
             <Loader type="pacman"/>
         </>

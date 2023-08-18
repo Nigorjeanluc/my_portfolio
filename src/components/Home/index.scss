@@ -77,4 +77,18 @@
             color: #333;
         }
     }
+
+    .logoMe {
+        z-index: 0;
+        width: 400px;
+        height: 409px;
+        position: absolute;
+        top: 0;
+        right: 15%;
+        bottom: 0;
+        left: auto;
+        margin: auto;
+        border-radius: 50%;
+        // opacity: 0;
+    }
 }
