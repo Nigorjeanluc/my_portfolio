@@ -10,8 +10,6 @@ WORKDIR /app
 COPY package.json .
  
 # Install application dependencies.
-RUN apt-get update && apt-get install -y curl
-RUN curl -sl https://deb.nodesource.com/setup_20.x | bash -
 RUN apt-get update && apt-get install -y nodejs
 RUN npm install
  
