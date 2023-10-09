@@ -1,3 +1,7 @@
+h1.page-title {
+  margin-top: 50px;
+}
+
 .contact-form {
     width: 100%;
     margin-top: 20px;
@@ -69,6 +73,10 @@
         // text-transform: uppercase;
         // text-align: center;
         // margin-right: 10px;
+    }
+    .flat-button:hover {
+      background-color: #ffd700;
+      color: #000;
     }
 }
 

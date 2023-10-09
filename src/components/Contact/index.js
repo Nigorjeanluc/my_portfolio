@@ -11,7 +11,13 @@ const Contact = () => {
   const refForm = useRef()
 
   useEffect(() => {
-    setLetterClass('text-animate-hover')
+    const timer = setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 3000);
+
+    return () => {
+      clearTimeout(timer)
+    }
   }, [])
 
   const sendEmail = (e) => {
@@ -38,11 +44,11 @@ const Contact = () => {
     <>
       <div className="container contact-page">
         <div className="text-zone">
-          <h1>
+          <h1 className='page-title'>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
-              idx={15}
+              strArray={'Contact me'.split("")}
+              idx={25}
             />
           </h1>
           <p>

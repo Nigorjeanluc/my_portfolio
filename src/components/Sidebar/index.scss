@@ -87,6 +87,13 @@
                 content: "CONTACT";
             }
         }
+        
+        a.portfolio-link {
+            &:after {
+                content: "PORTFOLIO";
+                font-size: 0.35em;
+            }
+        }
 
         a.active {
             svg {
