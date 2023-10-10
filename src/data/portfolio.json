@@ -1,10 +1,10 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/1.jpg",
+            "cover": "/portfolio/1/1.png",
             "title": "TeamWork",
-            "description": "React, Node.js, JSX, Tailwind",
-            "url": "https://github.com/"
+            "description": "HTML, CSS, Vanilla JS, Node.js, Express",
+            "url": "https://github.com/Nigorjeanluc/Teamwork"
         },
         {
             "cover": "/portfolio/1/1.jpg",
