@@ -3,18 +3,18 @@
         {
             "cover": "/portfolio/1/1.png",
             "title": "TeamWork",
-            "description": "HTML, CSS, Vanilla JS, Postgres, Node.js and Express",
+            "description": "HTML, CSS, Vanilla JS, Node.js and Express",
             "url": "https://github.com/Nigorjeanluc/Teamwork"
         },
         {
             "cover": "/portfolio/2/1.png",
             "title": "Broadccaster",
-            "description": "HTML, CSS, Vanilla JS, Postgres, Node.js and Express",
+            "description": "HTML, CSS, Vanilla JS, Node.js and Express",
             "url": "https://github.com/Nigorjeanluc/Broadcaster"
         },
         {
             "cover": "/portfolio/3/2.png",
-            "title": "TeamWork",
+            "title": "IaaC ALX Project",
             "description": "AWS cloudformation, Yaml, JSON",
             "url": "https://github.com/Nigorjeanluc/ALX-project2"
         },
