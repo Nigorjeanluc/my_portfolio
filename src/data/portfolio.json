@@ -3,13 +3,13 @@
         {
             "cover": "/portfolio/1/1.png",
             "title": "TeamWork",
-            "description": "HTML, CSS, Vanilla JS, Node.js and Express",
+            "description": "HTML, CSS, Vanilla JS, Node.js, Express",
             "url": "https://github.com/Nigorjeanluc/Teamwork"
         },
         {
             "cover": "/portfolio/2/1.png",
             "title": "Broadccaster",
-            "description": "HTML, CSS, Vanilla JS, Node.js and Express",
+            "description": "HTML, CSS, Vanilla JS, Node.js, Express",
             "url": "https://github.com/Nigorjeanluc/Broadcaster"
         },
         {
@@ -19,16 +19,10 @@
             "url": "https://github.com/Nigorjeanluc/ALX-project2"
         },
         {
-            "cover": "/portfolio/1/1.jpg",
-            "title": "TeamWork",
-            "description": "React, Node.js, JSX, Tailwind",
-            "url": "https://github.com/"
-        },
-        {
-            "cover": "/portfolio/1/1.jpg",
-            "title": "TeamWork",
-            "description": "React, Node.js, JSX, Tailwind",
-            "url": "https://github.com/"
+            "cover": "/portfolio/4/1.png",
+            "title": "Groupeya",
+            "description": "Laravel, React, Sass",
+            "url": "https://groupeya.com/"
         }
     ]
 }
