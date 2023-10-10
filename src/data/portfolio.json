@@ -3,20 +3,20 @@
         {
             "cover": "/portfolio/1/1.png",
             "title": "TeamWork",
-            "description": "HTML, CSS, Vanilla JS, Node.js, Express",
+            "description": "HTML, CSS, Vanilla JS, Postgres, Node.js and Express",
             "url": "https://github.com/Nigorjeanluc/Teamwork"
         },
         {
             "cover": "/portfolio/2/1.png",
             "title": "Broadccaster",
-            "description": "HTML, CSS, Vanilla JS, Node.js, Express",
+            "description": "HTML, CSS, Vanilla JS, Postgres, Node.js and Express",
             "url": "https://github.com/Nigorjeanluc/Broadcaster"
         },
         {
-            "cover": "/portfolio/1/1.jpg",
+            "cover": "/portfolio/3/2.png",
             "title": "TeamWork",
-            "description": "React, Node.js, JSX, Tailwind",
-            "url": "https://github.com/"
+            "description": "AWS cloudformation, Yaml, JSON",
+            "url": "https://github.com/Nigorjeanluc/ALX-project2"
         },
         {
             "cover": "/portfolio/1/1.jpg",
