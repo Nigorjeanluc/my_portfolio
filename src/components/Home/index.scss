@@ -101,12 +101,25 @@
     }
 
     .home-page{
+        display: block;
         .text-zone {
+            display: block;
             position: initial;
             width: 100%;
             transform: none;
             padding: 10px;
             box-sizing: border-box;
+            // font-size: 0.2em !important;
+        }
+
+        .logoMe {
+            display: block;
+            position: initial;
+            width: 90%;
+            height: 0%;
+            overflow: visible;
+            margin-left: 5%;
+            margin-right: 5%;
         }
 
         .flat-button {
